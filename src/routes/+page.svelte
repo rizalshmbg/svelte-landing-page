@@ -3,6 +3,7 @@
 	import Hero from '../components/Hero.svelte';
 	import Product from '../components/Product.svelte';
 	import Reviews from '../components/Reviews.svelte';
+	import Conversion from '../components/Conversion.svelte';
 </script>
 
 <!-- RENDERED A PARTICULAR FOLDER ROUTE -->
@@ -12,4 +13,5 @@
 	<Product />
 	<Reviews />
 	<FAQs />
+	<Conversion />
 </main>
