@@ -1,4 +1,9 @@
+<script>
+	import Hero from '../components/Hero.svelte';
+</script>
+
 <!-- RENDERED A PARTICULAR FOLDER ROUTE -->
 
-<h1 class='underline'>Welcome to SvelteKit</h1>
-<p>Visit <a href="https://kit.svelte.dev">kit.svelte.dev</a> to read the documentation</p>
+<main class="flex flex-col">
+	<Hero />
+</main>
