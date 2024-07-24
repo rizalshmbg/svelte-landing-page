@@ -58,12 +58,13 @@
 			<ProductCard {productFeature} {index}>
 				{#if index === 0}
 					Experience a beginner exercise <span
-						class="text-indigo-400 font-medium">master</span
-					> class
+						class="text-indigo-400 font-medium">master class</span
+					>
 				{:else if index === 1}
 					Lay foundation for <span class="text-indigo-400 font-medium">
 						routine
-					</span> and consistency
+					</span>
+					and <span class="text-indigo-400 font-medium">consistency</span>
 				{:else}
 					Workout specific to your <span class="text-indigo-400 font medium"
 						>environment</span
